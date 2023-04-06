@@ -1,7 +1,7 @@
-<div align="center">
-  
-  # FACE EMOTION RECOGNITION
-</div>
+<p align="center"> 
+  <img src="https://github.com/venugopalkadamba/Face_Emotion_Recognition/blob/master/All_Emotions_Detection.jpg" alt="Face Emotion Image" width="400px" height="200px">
+
+<h1 align="center"> FACE EMOTION RECOGNITION </h1>
 
 ## Project Introduction:<br>
 <p>The Indian education landscape has been undergoing rapid changes for the past ten years owing to the advancement of web-based learning services, specifically eLearning platforms.</p>
@@ -11,12 +11,18 @@ While digital platforms have limitations in terms of physical surveillance, it c
 
 <p>It provides data in form of video, audio, and texts, which can be analyzed using deep learning algorithms. A deep learning-backed system not only solves the surveillance issue, but also removes the human bias from the system, and all information is no longer in the teacher’s brain but rather translated into numbers that can be analyzed and tracked.</p>
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## Objective:<br>
 Our objective is to solve the above mentioned challenge by applying deep learning algorithms to live video data inorder to recognize the facial emotions and categorize them accordingly.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Dataset
 <b>Dataset Link:</b> https://www.kaggle.com/deadskull7/fer2013 <br>
 The dataset contains 35887 images of people showing 7 unique emotions: Anger, Happy, Disgust, Sad, Surprise, Neutral and Fear. <br>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Steps for running in local computer
 **STEP-1:** Install all the dependencies mentioned in **requirements.txt** file. You can run the following command in your command prompt to install all the dependencies:
@@ -31,11 +37,7 @@ python main.py
 ```
 That's it, you can see the web application running at you localhost.<br>
 
-## Live Video of Face Emotion Recognition
-![alt-text](https://github.com/venugopalkadamba/Face_Emotion_Recognition/blob/master/Live_Video.gif)
-
-## Emotions Detected in a Image
-![alt-text](https://github.com/venugopalkadamba/Face_Emotion_Recognition/blob/master/All_Emotions_Detection.jpg)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
   
 ## Project Overview:<br>
 <p>We start with downloading the required dataset from Kaggle. Once the data is available, the training and validation sets are defined.</p>
@@ -48,10 +50,5 @@ That's it, you can see the web application running at you localhost.<br>
 
 <p>The model achieved an accuracy of around 73% on the training set and 58-63% on the validation set after fifteen epochs.</p>  
  
- ## For reference:<br>
-* https://towardsdatascience.com/face-detection-recognition-and-emotion-detection-in-8-lines-of-code-b2ce32d4d5de
-* https://towardsdatascience.com/video-facial-expression-detection-with-deep-learning-applying-fast-ai-d9dcfd5bcf10
-* https://github.com/atulapra/Emotion-detection
-* https://medium.com/analytics-vidhya/building-a-real-time-emotion-detector-towards-machine-with-e-q-c20b17f89220
  
 
